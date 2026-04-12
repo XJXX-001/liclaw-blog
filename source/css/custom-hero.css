@@ -1,0 +1,57 @@
+/* ================================================
+   Hero Banner - Responsive Watermark + Multi-Device
+   ================================================ */
+
+/* Set banner height on index page */
+#page-header.full_page {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Hide site title + subtitle on hero banner */
+#page-header.full_page #site-info,
+#page-header.full_page #site-title,
+#page-header.full_page #site-subtitle {
+  display: none !important;
+}
+
+/* Watermark overlay - positioned bottom-right */
+#page-header.full_page::after {
+  content: 'Photo: NASA';
+  position: absolute;
+  bottom: 20px;
+  right: 24px;
+  font-size: clamp(10px, 1.5vw, 14px);
+  color: rgba(255, 255, 255, 0.7);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+  pointer-events: none;
+  z-index: 2;
+  letter-spacing: 0.3px;
+  font-family: Inter, system-ui, -apple-system, sans-serif;
+  font-weight: 500;
+}
+
+/* Tablet */
+@media screen and (max-width: 1024px) {
+  #page-header.full_page {
+    height: 70vh;
+  }
+  #page-header.full_page::after {
+    bottom: 14px;
+    right: 16px;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+  #page-header.full_page {
+    height: 50vh;
+  }
+  #page-header.full_page::after {
+    bottom: 10px;
+    right: 12px;
+    font-size: 10px;
+  }
+}

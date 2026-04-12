@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /blog/
+Disallow: /blog/search/
+Disallow: /blog/tags/
+Disallow: /blog/categories/
+Disallow: /blog/archives/
+
+Sitemap: https://liclaw.site/blog/sitemap.xml
