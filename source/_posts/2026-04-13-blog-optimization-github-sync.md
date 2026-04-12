@@ -50,7 +50,7 @@ ffmpeg -i home-bg-final.jpg -q:v 75 home-bg-final.webp
 
 ### 诊断过程
 
-先查防火墙。UFW 状态显示只开了 80 和 443 入站，出站策略是 ACCEPT——说明防火墙没拦。
+先查防火墙，确认出站连接没有被拦截。
 
 再测网络。`curl -v https://github.com` 能连上，TLS 握手成功。但 `git push` 就是连不上。
 
