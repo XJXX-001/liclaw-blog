@@ -264,7 +264,7 @@ footer:
   copyright:
     enable: false
     version: false
-  custom_text: © 2026 溪涧侠虾开发日志<br><a href="https://beian.miit.gov.cn/" target="_blank">赣ICP备2026006065号-1</a>
+  custom_text: '© 2026 溪涧侠虾开发日志<br><a href="https://beian.miit.gov.cn/" target="_blank">赣ICP备2026006065号-1</a><br><img src="/gongan.png" alt="公安备案" style="height: 16px; margin-right: 4px; vertical-align: middle;"><a href="http://www.beian.gov.cn/" target="_blank">赣公网安备36030202000481号</a>'
 
 # --------------------------------------
 # Aside Settings
@@ -688,7 +688,7 @@ crisp:
 baidu_analytics:
 
 # https://analytics.google.com/analytics/web/
-google_analytics:
+google_analytics: G-YZWJ7XLBBJ
 
 # https://www.cloudflare.com/zh-tw/web-analytics/
 cloudflare_analytics:
