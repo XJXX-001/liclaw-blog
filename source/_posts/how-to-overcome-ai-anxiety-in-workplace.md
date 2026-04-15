@@ -7,7 +7,7 @@ tags:
   - 职场
   - 焦虑
 categories:
-  - AI Engineering
+  - 思考与感悟
 ---
 
 ## 一个深夜的场景

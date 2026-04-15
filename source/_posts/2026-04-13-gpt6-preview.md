@@ -7,7 +7,7 @@ tags:
   - OpenAI
   - AGI
 categories:
-  - AI-Engineering
+  - AI Engineering
 ---
 
 4月14日，OpenAI要发GPT-6了。内部代号"Spud"（土豆），听着有点随意，但这次发布可能是AI行业三年来最重要的一次。
